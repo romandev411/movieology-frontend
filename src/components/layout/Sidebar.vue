@@ -40,9 +40,9 @@ const route = useRoute();
         :to="to"
         :key="to"
         :class="
-          route.path === to ? ' bg-movie-black-400 text-white' : ' text-grey'
+          route.path === to ? 'bg-movie-black-400 text-white' : ' text-gray-600'
         "
-        class="flex-shrink-0 flex w-14 h-14 items-center justify-center rounded-lg"
+        class="flex-shrink-0 flex w-14 h-14 items-center justify-center rounded-lg hover:bg-movie-black-400"
       >
         <component
           :is="route.path === to ? activeIcon : icon"

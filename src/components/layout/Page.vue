@@ -18,7 +18,7 @@ defineProps<{
         <slot name="header"></slot>
       </div>
     </div>
-    <div>
+    <div class="mx-4">
       <slot></slot>
     </div>
   </section>
